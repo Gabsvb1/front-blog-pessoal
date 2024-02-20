@@ -1,4 +1,3 @@
-import React from 'react'
 import { FacebookLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
 
 function Footer() {
@@ -6,7 +5,7 @@ function Footer() {
   
 
   return (
-    <div style={{position: "absolute", bottom: 0, width: "100%"}}>
+    <div >
         <div className="flex justify-center bg-indigo-900 text-white">
           <div className="container flex flex-col items-center py-4">
             <p className='text-xl font-bold'>Blog pessoal Generation | Copyright: </p>
